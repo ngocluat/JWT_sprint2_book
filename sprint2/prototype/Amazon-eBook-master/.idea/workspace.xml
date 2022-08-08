@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92d5f13e-2f52-4214-bd87-7ed4bfaa2d93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/C1221G1-tr-n-lu-t.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/cofig/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/model/CartDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/test/FinalizeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/java/com/sprint2/test/filedatabase" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/resources/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/resources/templates/library.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../be/book_manager/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/app/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/images/Juwel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/images/Notebook-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/images/Rasakw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/images/Yeeak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/images/blogger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/images/iPad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/js/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fe/book/src/assets/js/smoothscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carbook-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carbook-master/.idea/carbook-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carbook-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carbook-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carbook-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carbook-master/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tempale/.idea/tempale.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/cofig/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/controller/IRangeTourController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/controller/TourController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/controller/TypeTourController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/dto/TourDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/model/MemberTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/model/RangeTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/model/StatusTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/model/Tour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/model/TypeTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/repository/IMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/repository/IRangeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/repository/ITourRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/repository/ITypeTourRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/IMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/IRangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/ITourSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/ITypeTourService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/impl/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/impl/RangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/impl/TourService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/java/com/graduate/service/impl/TypeTourService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_BE/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/app/model/Member.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/app/model/RangeTour.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/app/model/Tour.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/app/model/TypeTour.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/Flaticon.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/Magnific-Popup-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/OwlCarousel2-2.3.4.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/SlickNav-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/bootstrap-4.4.1-dist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/elegant_font.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/font-awesome-4.7.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/jquery-nice-select-1.1.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/jquery-ui-1.12.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/Source/sass.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/elegant-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/slicknav.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/ElegantIcons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/ElegantIcons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/ElegantIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/ElegantIcons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/Furamvilla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/about/about-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/about/about-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/about/about-p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/about/about-p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/about/about-p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-details/avatar/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-details/avatar/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-details/avatar/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-details/blog-details-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-details/blog-details-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-details/blog-details-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-details/blog-details-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/blog/blog-wide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/flag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/gallery/gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/gallery/gallery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/gallery/gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/gallery/gallery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/hero/hero-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/hero/hero-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/hero/hero-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/avatar/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/avatar/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/room/room-details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/services/s-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/testimonial-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/img/video-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/jquery.slicknav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exam_FE/graduation/src/assets/js/owl.carousel.min.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2C6HzV4pjH3vDHzRwWdfYII7t0E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92d5f13e-2f52-4214-bd87-7ed4bfaa2d93" name="Default Changelist" comment="" />
+      <created>1658116376083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658116376083</updated>
+      <workItem from="1658116377787" duration="275000" />
+      <workItem from="1658119114808" duration="520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

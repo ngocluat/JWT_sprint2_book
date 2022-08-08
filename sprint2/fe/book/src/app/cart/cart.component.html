@@ -1,0 +1,74 @@
+<header id="site-header">
+  <div class="container">
+    <h1>Giỏ hàng <span></span></h1>
+  </div>
+</header>
+
+<div class="container">
+  <section id="cart">
+    <article *ngFor="let cartDetail of cartDetails" class="product">
+      <a [routerLink]="['/detail',cartDetail.book.bookId]">
+        <header>
+          <a class="remove">
+            <img alt="" src="{{cartDetail.book.bookImage}}">
+            <h3>
+              <button class="btn btn-primary" data-target="#exampleModal" data-toggle="modal" style="width: 170px;">
+                Xoá
+              </button>
+            </h3>
+          </a>
+        </header>
+        <div class="content">
+          <h1> {{cartDetail.book.bookName}}</h1>
+          Giá : {{cartDetail.book.bookPrice |number}} VND
+        </div>
+        <footer class="content">
+          <span class="qt-minus">-</span>
+          <span class="qt">1</span>
+          <span class="qt-plus">+</span>
+          <h2 class="full-price">
+            {{cartDetail.book.bookPrice}}
+          </h2>
+          <h2 class="price">
+            {{cartDetail.quantity}}
+          </h2>
+        </footer>
+      </a>
+    </article>
+  </section>
+</div>
+
+<footer id="site-footer">
+  <div class="container clearfix">
+    <div class="left" style="background-color: #beffec ; border-radius: 20px">
+      <h2 class="subtotal">Tổng cộng: <span>163.096</span>VND</h2>
+      <h2 class="subtotal">Thuế (5%): <span>10.000</span>VND</h2>
+      <h2 class="subtotal">Phí Giao Hàng: <span>35.000</span>VND</h2>
+    </div>
+    <div class="right">
+      <h1 class="total">Tổng cộng: <span>217.016</span>VND</h1>
+      <a class="btn">thanh toán</a>
+    </div>
+
+  </div>
+</footer>
+<!-- Modal -->
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Bạn Có Chắc Chắn Muốn Xoá
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+        <button class="btn btn-primary" type="button">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

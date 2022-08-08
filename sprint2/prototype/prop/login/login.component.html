@@ -1,0 +1,33 @@
+<div id="login-page">
+  <div class="login">
+    <h2 class="login-title">Login</h2>
+    <p class="notice">Please login to access the system</p>
+    <form class="form-login">
+      <label for="email">E-mail</label>
+      <div class="input-email">
+        <i class="fas fa-envelope icon" style="margin-top: 6px"></i>
+        <input type="email" id="email" placeholder="Enter your e-mail" required>
+      </div>
+      <label for="password">Password</label>
+      <div class="input-password">
+        <i class="fas fa-lock icon"  style="margin-top: 6px"></i>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      </div>
+      <div class="checkbox">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          Remember me
+        </label>
+      </div>
+      <button type="submit"><i class="fas fa-door-open"></i> Sign in</button>
+      <button type="submit" [routerLink]="['/index']"><i class="fas fa-door-open"></i>Home</button>
+    </form>
+    <a href="#">Forgot your password?</a>
+    <div class="created">
+      <p>Created by <a href="https://codepen.io/kelvinqueiroz/">Kelvin Queiróz</a></p>
+    </div>
+  </div>
+  <div class="background">
+    <h1>Donec in dapibus augue sed nisi nunc suscipit eget enim sit amet</h1>
+  </div>
+</div>

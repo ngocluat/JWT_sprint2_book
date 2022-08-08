@@ -1,0 +1,39 @@
+<div id="login-page">
+  <div class="login">
+    <h2 class="login-title">Đăng Nhập</h2>
+    <p class="notice">Vui lòng đăng nhập để truy cập hệ thống</p>
+    <form [formGroup]="signInForm" (ngSubmit)="submitSignIn()">
+      <label for="email">E-mail</label>
+      <div class="input-email">
+        <i class="fas fa-envelope icon" style="margin-top: 6px"></i>
+        <input type="email" id="email" formControlName="username" placeholder="Nhập email của bạn">
+      </div>
+      <p style="color: red "
+         *ngIf="signInForm.controls.username.hasError('required') &&signInForm.controls.username.touched "> Không được
+        để trống.</p>
+      <label for="password">Password</label>
+      <div class="input-password">
+        <i class="fas fa-lock icon" style="margin-top: 6px"></i>
+        <input type="password" id="password" formControlName="password" placeholder="Nhập mật khẩu của bạn">
+      </div>
+      <p style="color: red "
+         *ngIf="signInForm.controls.password.hasError('required') &&signInForm.controls.password.touched "> Không được
+        để trống.</p>
+
+      <div class="checkbox">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          Nhớ tôi
+        </label>
+      </div>
+      <button type="submit"><i class="fas fa-door-open"></i> Đăng nhập</button>
+      <a href="#">Quên mật khẩu?</a>
+      <div class="created">
+      </div>
+    </form>
+  </div>
+
+  <div class="background">
+    <h1>Để sử dụng các dịch vụ khác của chúng tôi vui lòng đăng nhập </h1>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+ create table account (account_id bigint not null auto_increment, account_name varchar(255), account_password varchar(255), primary key (account_id)) engine=InnoDB;
+ create table author (author_id bigint not null auto_increment, author_name varchar(255), primary key (author_id)) engine=InnoDB;
+ create table book (book_id bigint not null auto_increment, book_description varchar(255), book_image varchar(255), book_name varchar(255), book_number_of_pages bigint, book_price double precision, book_release_date DATE, book_translator varchar(255), publishing_company varchar(255), author_id bigint, category_id bigint, primary key (book_id)) engine=InnoDB;
+ create table cart (cart_id bigint not null auto_increment, cart_quantity bigint, account_id bigint, primary key (cart_id)) engine=InnoDB;
+ create table cart_detail (cart_detail_id bigint not null, quantity integer, book_id bigint, cart_id bigint, primary key (cart_detail_id)) engine=InnoDB;
+ create table category (category_id bigint not null auto_increment, category_name bigint, primary key (category_id)) engine=InnoDB;
+ alter table book add constraint FKklnrv3weler2ftkweewlky958 foreign key (author_id) references author (author_id);
+ alter table book add constraint FKam9riv8y6rjwkua1gapdfew4j foreign key (category_id) references category (category_id);
+ alter table cart add constraint FK4pljlvncf45mr98etwpubxvbt foreign key (account_id) references account (account_id);
+ alter table cart_detail add constraint FKflpu1psdex9le27p7owju2piw foreign key (book_id) references book (book_id);
+ alter table cart_detail add constraint FKrg4yopd2252nwj8bfcgq5f4jp foreign key (cart_id) references cart (cart_id);

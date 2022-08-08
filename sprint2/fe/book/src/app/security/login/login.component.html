@@ -1,0 +1,74 @@
+<div class="bg-img container-fluid"
+
+>
+  <div class="row d-flex justify-content-center align-items-center  vh-100 m-auto">
+    <div>
+      <form [formGroup]="signInForm" (ngSubmit)="submitSignIn()">
+        <div class="h-50 p-4 shadow-lg  bg-white rounded">
+          <div>
+            <h3 class="text-success">Đăng nhập</h3>
+          </div>
+          <h4 class="text-secondary">Cảm ơn quý khách đã tin cậy và lựa chọn chúng tôi</h4>
+          <hr >
+          <div class="row my-2">
+            <span class="text-success col-3 pl-4" style="font-size: 1.1rem">Tài khoản</span>
+            <input type="text" class="w-100 border border-success rounded col-8 form-control-sm ml-4"
+                   formControlName="username"
+                   placeholder="pharmacy@email.com">
+          </div>
+          <div class="row p-0 m-0">
+            <p class="col-12 text-right text-danger m-0 p-0"
+               *ngIf="signInForm.controls.username.hasError('required') &&
+             (signInForm.controls.username.touched || signInForm.controls.username.dirty)"
+            >Vui lòng không để trống.</p>
+            <p class="col-12 text-right text-danger m-0 p-0"
+               *ngIf="signInForm.controls.username.hasError('email') &&
+             (signInForm.controls.username.touched || signInForm.controls.username.dirty)"
+            >Không đúng định dạng email.</p>
+            <p class="col-12 text-right text-danger m-0 p-0"
+               *ngIf="errorMap && (signInForm.controls.username.touched ||signInForm.controls.username.dirty)"
+            >{{errorMap['username']}}</p>
+          </div>
+          <div class="row my-2">
+            <span class="text-success col-3 pl-4" style="font-size: 1.1rem">Mật khẩu</span>
+            <input type="password"
+                   formControlName="password"
+                   class="w-100 border border-success rounded form-control-sm col-8 ml-4">
+          </div>
+          <div class="row p-0 m-0">
+            <p class="col-12 text-right text-danger m-0 p-0"
+               *ngIf="signInForm.controls.password.hasError('required')
+             &&
+             (signInForm.controls.password.touched || signInForm.controls.password.dirty)"
+            >Vui lòng không để trống.</p>
+            <p class="col-12 text-right text-danger m-0 p-0"
+               *ngIf="errorMap && (signInForm.controls.password.touched||signInForm.controls.password.dirty)"
+            >{{errorMap['password']}}</p>
+          </div>
+          <div class="row my-2">
+            <div class="w-100 col-3">
+
+            </div>
+            <input type="checkbox"
+                   formControlName="remember"
+                   class="rounded col-1 ml-4">
+            <span class="text-success col-7" style="font-size: 1.25rem">Ghi nhớ đăng nhập</span>
+
+          </div>
+          <hr>
+
+          <div class=" d-flex justify-content-center">
+            <a (click)="signInWithFaceBook()" class="btn btn-primary col-3 text-center mx-2"><i class="fa-brands fa-facebook"></i></a>
+            <button class="btn btn-danger col-3 text-center mx-2"><i class="fa-brands fa-instagram"></i></button>
+            <button class="btn btn-info col-3 text-center mx-2"><i class="fa-brands fa-twitter"></i></button>
+          </div>
+          <p class="text-center text-success my-2">Quý khách có thể đăng nhập bằng tài khoản mạng xã hội</p>
+          <div class="row my-2">
+            <a href="#" class="btn btn-secondary col-4 mx-auto">Thoát</a>
+            <button type="submit" class="btn btn-success col-4 mx-auto">Đăng nhập</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

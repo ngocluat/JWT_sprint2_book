@@ -1,0 +1,18 @@
+.bg-img{
+  position:relative;
+}
+.bg-img:after{
+  content:'';
+  background-image: url('https://i.pinimg.com/originals/33/e2/07/33e207e2b8b493232cf8c85ebd60ce78.jpg');
+  background-repeat: round;
+  background-color: lightgrey;
+  background-position: center;
+  background-origin: border-box;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  opacity: 0.3;
+}

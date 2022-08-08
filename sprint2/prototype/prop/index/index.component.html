@@ -1,0 +1,143 @@
+<button class="btn-nav">
+  <div class="bar arrow-top-r"></div>
+  <div class="bar arrow-middle-r"></div>
+  <div class="bar arrow-bottom-r"></div>
+</button>
+<div class="links-con">
+  <a [routerLink]="['/index']" target="_blank" class="nav new">Home</a>
+  <a href="https://antonijasimic.bitbucket.io/text_hover_effects/index.html" target="_blank" class="nav">Home</a>
+  <a href="https://antonijasimic.bitbucket.io/text_hover_effects/documentation.html" target="_blank"
+     class="nav">Docs</a>
+  <a [routerLink]="['/cart']" class="nav" target="_blank"><i class="fa-solid fa-cart-shopping-fast"></i>Giỏ hàng </a>
+</div>
+<main>
+  <aside class="left-side hidden hideNav">
+    <ul class="effects-list">
+      <li class="item-divider">Underline</li>
+      <li class="item item-active">underline-left</li>
+      <li class="item">underline-right</li>
+      <li class="item">underline-closing</li>
+      <li class="item">underline-opening</li>
+
+      <li class="item-divider">Double Underline</li>
+      <li class="item">double-underline-left</li>
+      <li class="item">double-underline-right</li>
+      <li class="item">double-underline-opening</li>
+      <li class="item">double-underline-left-right</li>
+      <li class="item">double-underline-right-left</li>
+
+      <li class="item-divider">Overline</li>
+      <li class="item">overline-left</li>
+      <li class="item">overline-right</li>
+      <li class="item">overline-closing</li>
+      <li class="item">overline-opening</li>
+
+      <li class="item-divider">One Side</li>
+      <li class="item">left-down</li>
+      <li class="item">left-up</li>
+      <li class="item">right-down</li>
+      <li class="item">right-up</li>
+
+      <li class="item-divider">Moves</li>
+      <li class="item">move-down</li>
+      <li class="item">move-up</li>
+      <li class="item">move-right</li>
+      <li class="item">move-left</li>
+      <li class="item">move-vertical</li>
+      <li class="item">move-horizontal</li>
+
+      <li class="item-divider">Both Sides</li>
+      <li class="item">both-down</li>
+      <li class="item">both-up</li>
+      <li class="item">both-right</li>
+      <li class="item">both-left</li>
+      <li class="item">left-up-right-down</li>
+      <li class="item">left-down-right-up</li>
+      <li class="item">both-opening-horizontal</li>
+      <li class="item">overline-left-underline-right</li>
+      <li class="item">overline-right-underline-left</li>
+
+      <li class="item-divider">Fills</li>
+      <li class="item">fill-left</li>
+      <li class="item">fill-right</li>
+      <li class="item">fill-down</li>
+      <li class="item">fill-up</li>
+      <li class="item">fill-closing-vertical</li>
+      <li class="item">fill-closing-horizontal</li>
+      <li class="item">fill-opening-horizontal</li>
+
+      <li class="item-divider">Fill Corners</li>
+      <li class="item">fill-top-left</li>
+      <li class="item">fill-top-right</li>
+      <li class="item">fill-bottom-left</li>
+      <li class="item">fill-bottom-right</li>
+
+      <li class="item-divider">Corners Close</li>
+      <li class="item">left-bottom</li>
+      <li class="item">left-top</li>
+      <li class="item">right-top</li>
+      <li class="item">right-bottom</li>
+
+      <li class="item-divider">Corners Expand</li>
+      <li class="item">bottom-right</li>
+      <li class="item">bottom-left</li>
+      <li class="item">top-left</li>
+      <li class="item">top-right</li>
+
+      <li class="item-divider">Linethrough</li>
+      <li class="item">linethrough-left</li>
+      <li class="item">linethrough-right</li>
+      <li class="item">linethrough-opening</li>
+      <li class="item">linethrough-closing</li>
+
+      <li class="item-divider">Double Linethrough</li>
+      <li class="item">double-linethrough-left</li>
+      <li class="item">double-linethrough-right</li>
+      <li class="item">double-linethrough-left-right</li>
+      <li class="item">double-linethrough-right-left</li>
+      <li class="item">double-linethrough-opening</li>
+
+      <li class="item-divider">Delays</li>
+      <li class="item">double-underline-right-delayed</li>
+      <li class="item">top-left-delay</li>
+      <li class="item">right-bottom-delay</li>
+      <li class="item">double-underline-opening-delayed</li>
+      <li class="item">double-linethrough-left-delayed</li>
+      <li class="item">double-linethrough-opening-delayed</li>
+      <li class="item">fill-closing-horizontal-delayed</li>
+      <li class="item">both-left-delayed</li>
+    </ul>
+  </aside>
+  <aside class="right-side">
+
+    <div class="flex-container">
+      <div style="height: 290px ; width: 190px;">
+        <a [routerLink]="['/detail']">
+          <img src="https://nordiccoder.com/app/uploads/2020/08/code-dao-ki-su-sach-hay-it.jpg"
+               style="width: 150px; height: 150px; border-radius:60%;">
+          <p>CodeCodeCode dạo ký sự</p></a>
+      </div>
+      <div style="height: 290px ; width: 190px;"><a [routerLink]="['/detail']">
+        <img
+          src="data:image/jpeg;base64,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"
+          style="width: 150px; height: 150px;  border-radius:60%;">
+        <p>Dự án công ngh án công án công ngh án công nghngh án công nghệ</p></a>
+      </div>
+      <div style="height: 290px ; width: 190px;"><a [routerLink]="['/detail']">
+        <img src="http://utc2.edu.vn/uploads/img/images/Diemsach_2018_02_image008.jpg"
+             style="width: 150px; height: 150px; border-radius:60%;">
+        <p>Giáo trình PHP</p></a>
+      </div>
+      <div style="height: 290px ; width: 190px;"><a [routerLink]="['/detail']">
+        <img
+          src="https://sites.google.com/site/duclinhdhtvbaclieu/_/rsrc/1382066913773/home/khoa-cong-nghe-thong-tin/sach-cntt-tham-khao/LL11.jpg?height=320&width=213"
+          style="width: 150px; height: 150px;  border-radius:60%;">
+        <p>Giáo trình Java</p></a>
+      </div>
+    </div>
+  </aside>
+
+  <a href="https://codepen.io/tonkec" class="ua" target="_blank">
+    <i class="fa fa-user"></i></a>
+</main>
+

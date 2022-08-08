@@ -1,0 +1,87 @@
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+  margin-bottom:1rem;
+}
+
+.navbar .dropdown-menu {
+  border:none;
+  background-color:#53b5aa!important;
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+  .navbar {
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .navbar .nav-item {
+    padding:.5rem .5rem;
+    margin:0 .25rem;
+  }
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {position:static;}
+
+  .navbar .dropdown-menu {
+    width:100%;
+    left:0;
+    right:0;
+    /*  height of nav-item  */
+    top:45px;
+
+    display:block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+
+  }
+
+
+
+
+  /* shows the dropdown menu on hover */
+  .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+    display:block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+  }
+
+}
+
+
+@-webkit-keyframes my {
+  0% { color: #F8CD0A; }
+  50% { color: #fff;  }
+  100% { color: #F8CD0A;  }
+}
+@-moz-keyframes my {
+  0% { color: #F8CD0A;  }
+  50% { color: #fff;  }
+  100% { color: #F8CD0A;  }
+}
+@-o-keyframes my {
+  0% { color: #F8CD0A; }
+  50% { color: #fff; }
+  100% { color: #F8CD0A;  }
+}
+@keyframes my {
+  0% { color: #F8CD0A;  }
+  50% { color: #fff;  }
+  100% { color: #F8CD0A;  }
+}
+.test {
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite;
+  -o-animation: my 700ms infinite;
+  animation: my 700ms infinite;
+}

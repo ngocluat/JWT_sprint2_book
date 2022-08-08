@@ -1,0 +1,130 @@
+
+
+<div class="row">
+  <div class="col-lg-11">
+    <div id="content-wrap" style="margin-top: 40px">
+      <div class="book-infomation">
+        <div class="img-book">
+          <a href="">
+            <div class="container">
+              <div class="book">
+                <div class="front">
+                  <div class="cover">
+                    <img src="{{book.bookImage}}">
+                  </div>
+                </div>
+                <div class="left-side">
+                  <h2>
+                    <span>George Orwell</span>
+                    <span>1984</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--==============INFOMATION OF BOOK======================= -->
+        <div class="info-book">
+          <h1> {{book.bookName}} </h1>
+          <!-------------------TAG------------------------------------->
+          <p class="tag">
+            <a href=""   style="background-color: #c0fcff; border-radius: 20px" class="bluetag">Giá: {{book.bookPrice | number}}VND </a>
+            <span class="bluetag">Thể Loại: {{book.category.categoryName}}</span>
+            <a href="https://www.google.com/search?q={{book.author.authorName}}&hl=vi&authuser=0&tbm=isch&sxsrf=ALiCzsZ9NXb7qsvnbt_uU7c-HAk1We_QvQ%3A1658241489031&source=hp&biw=1280&bih=587&ei=0MHWYt6sO-XT2roPiPiOgAM&iflsig=AJiK0e8AAAAAYtbP4cvS6mQcjk5GMkPiTo5AHEJpFVmX&oq=&gs_lcp=CgNpbWcQARgAMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnUABYAGDaC2gBcAB4AIABAIgBAJIBAJgBAKoBC2d3cy13aXotaW1nsAEK&sclient=img" class="redtag"  target="_blank" >Tác Giả: {{book.author.authorName}} </a>
+          <div class="clearfix"></div>
+          <!----------------INTRO----------------------------------->
+          <p class="intro">
+           Ngày Sản Xuất: {{book.bookReleaseDate}}
+          </p>
+          <!-----------------TRAFFIC---------------------------->
+          <p class="traffic">
+            <em class="like" style="background-color: #ffb2cd; border-radius: 20px">{{view}}</em>
+            <cite>Yêu thích</cite>
+            <i>|</i>
+            <em class="view" >167845</em>
+            <cite>Lượt xem</cite>
+            <i>|</i>
+            <em class="follow">9191</em>
+            <cite>Theo dõi</cite>
+            <i>|</i>
+            <em class="nominate">0</em>
+            <cite>Đề xuất</cite>
+          </p>
+
+          <a class="btn btn-primary btn-lg btn-3d button">Đọc truyện</a>
+          <a class="btn btn-primary btn-lg btn-3d likebtn" (click)="getView()" style="background-color: #ff7595">Yêu thích</a>
+          <a class="btn btn-primary btn-lg btn-3d likebtn"  (click)="addItemToCart(book)">Thêm vào giỏ..</a>
+          <a class="btn btn-primary btn-lg btn-3d likebtn" title="Bạn Có chắc chắn mua " [routerLink]="['/cart']" style="background-color: #90ff83">Mua</a>
+        </div>
+        <!--==============RATING==================================-->
+        <div class="ratingWrap">
+          <cite class="score">4.7</cite>
+          <div class="clearfix"></div>
+          <p><span class="amount-rate"> 955</span> đánh giá</p>
+          <div class="clearfix"></div>
+          <h5 style="color: black"> Bạn thấy truyện này thế nào? </h5>
+          <div class="rating-star">
+            <img src="  https://truyen.tangthuvien.vn/images/star-off.b2a1b.png " title="tuyệt cú mèo" alt=1>
+            <img src=" https://truyen.tangthuvien.vn/images/star-on.02731.png " title="coi bộ hay đó chứ" alt=2>
+            <img src=" https://truyen.tangthuvien.vn/images/star-on.02731.png " title="ờ, cũng ổn" alt=3>
+            <img src=" https://truyen.tangthuvien.vn/images/star-on.02731.png " title="khá tệ" alt=4>
+            <img src=" https://truyen.tangthuvien.vn/images/star-on.02731.png " title="quá trời tệ" alt=5>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="content-nav">
+        <ul>
+          <li><a class="detail-book-tab">Thông tin chi tiết</a></li>
+          <li><a class="catalog-book-tab">Danh sách chương (<span class="catalog-num">112</span>
+            chương)</a></li>
+          <li><a class="comment-book-tab" href="#comment-area">Bình luận</a></li>
+          <div class="clearfix"></div>
+        </ul>
+      </div>
+      <!--============INFO_BOOK_TAB=====================--->
+      <div class="info-book-tab">
+        <!--------------LEFT_COL----------------------------->
+        <div class="left-col">
+          <!-------------Info-detail----------------------------->
+          <div class="info-detail">
+            <div class="book-intro">
+              <p > {{book.bookDescription}}</p>
+            </div>
+          </div>
+          <div class="book-state">
+            <ul>
+              <!--- UPDATOR ------------->
+              <li>
+                <p> Người đăng </p>
+                <div class="updator">
+                  <a href="#" class="bluetag">{{book.postBy}} </a>
+                </div>
+              </li>
+              <div class="clearfix"></div>
+              <!--- NEW CATALOG ------------->
+              <li>
+                <p> Chương mới </p>
+                <div class="new-catalog">
+                  <a href="#"> ( Phiên Ngoại Truyện) {{book.newChapter}}. </a>
+                  <h6> Oct 21, 2019 02:05 pm </h6>
+                </div>
+              </li>
+              <div class="clearfix"></div>
+              <!--- Tags------------->
+<!--              <li>-->
+<!--                <p> Tags </p>-->
+<!--                <div class="tags">-->
+<!--                  <a href="#" class="bluetag"> Dũng mãnh </a>-->
+<!--                  <a href="#" class="bluetag"> Huyền học </a>-->
+<!--                  <a href="#" class="bluetag"> Luyện công lưu</a>-->
+<!--                  <a href="#" class="bluetag"> Đông phương huyền huyễn </a>-->
+<!--                </div>-->
+<!--              </li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

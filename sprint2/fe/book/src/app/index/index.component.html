@@ -1,0 +1,231 @@
+<!-- Home -->
+<section class="home" id="home">
+  <div class="home-bg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-6" style="margin-left: 700px;">
+          <div class="header-wrapper">
+            <h1 class="header-title">Sách Mới Mỗi Ngày </h1>
+            <p class="header-sub">
+              Chúng tôi đem những sản phẩm tốt nhất cho bạn.
+            </p>
+            <p class="description">
+              “Cần phải yêu mến và tin vào sách . Cần rèn luyện cho mình thói quen thực hành và kỹ năng dùng sách để làm việc.(N. Rubakin)” </p>
+              </div> <!-- /.header-wrapper -->
+        </div>  <!-- .col-sm-5 -->
+      </div> <!-- .row -->
+    </div> <!-- /.container-fluid -->
+  </div> <!-- .home-bg -->
+</section> <!-- #home -->
+
+<!-- Book -->
+<section class="book" id="book">
+  <div class="book-bg">
+    <div class="container section-wrapper">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="light">
+            Cuốn sách đáng yêu, được viết tốt này quan tâm đến việc tạo ra kiểu chữ và rất cần thiết cho các chuyên gia thường xuyên làm việc cho khách hàng.
+          </p>
+          <p class="body">
+            Sách chứa đựng những giá trị văn hóa tinh thần (các tác phẩm sáng tác hoặc tài liệu biên soạn) thuộc các hình thái ý thức
+            <strong>xã hội và nghệ thuật </strong> .khác nhau, được ghi lại dưới các dạng ngôn ngữ khác nhau (chữ viết, hình ảnh, âm thanh, ký hiệu,...) của các dân tộc khác nhau nhằm để lưu trữ, tích lũy, truyền bá trong xã hội.
+          </p>
+          <p class="body">
+            Sách trên mạng xã hội, trên các nề tảng như facebook, các trang thương mại điện tử... ngày nay rất phong phú.
+            Chúng tôi yêu công nghệ, chúng tôi phát triển ứng dụng này cho bạn.
+          </p>
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- /.book-bg -->
+</section> <!-- #book -->
+
+
+<div class="wrapper  justify-content-center">
+  <h2><strong>Sách Giảm Giá <span></span></strong></h2>
+  <div class="cards  justify-content-center">
+    <div *ngFor="let item of bookDiscount">
+      <a [routerLink]="['/detail/',item.bookId]">
+        <figure class="card">
+          <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+            <span>-{{item.discount}}%</span></div>
+          <img src="{{item.bookImage}}"/>
+          <figcaption>
+            <h5 style="color: white; border-radius: 10px; background-color: #000000; text-align: center" class="an">{{item.bookName}}</h5>
+          </figcaption>
+        </figure>
+      </a>
+    </div>
+    <div class="mx-auto text-center col-12">
+      <nav class="blog-pagination d-flex justify-content-center py-3">
+        <ul class="pagination">
+          <li class="page-item px-1">
+            <a (click)="previousPageDiscout()" class="page-link">Trước</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link">
+              <span>{{currentPage + 1}}</span>
+              <span>/</span>
+              <span>{{totalPages}}</span>
+            </a>
+          </li>
+          <li class="page-item px-1">
+            <a class="page-link" (click)="nextPageDiscout()">Sau
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+  </div>
+
+  <h2><strong>Sách Mới Ra Mắt </strong></h2>
+
+  <div class="news justify-content-center ">
+
+    <figure class="article">
+
+      <img src="https://blogphotoshop.com/wp-content/uploads/2019/01/thiet-ke-bia-sach-dep.jpg"/>
+
+      <figcaption>
+        <h3>NGUYỄN MIÊN BỬU</h3>
+        <p>
+          Tự là Duy Thiện, Sư Cổ, hiệu là Khiêm Trai, Mai Hiên, nhà thơ, con thứ 12 của vua Minh Mạng, tước Tương An Quận vương. Cùng với 2 anh Miên Thẩm, Miên Trinh lập Tùng Vân thi xã. Các tác phẩm chính: Khiêm Trai thi tập (14 quyển); Khiêm Trai văn tập (2 quyển), ông còn viết nhiều thơ Nôm nhưng hầu hết đã thất lạc.
+        </p>
+      </figcaption>
+    </figure>
+    <figure class="article">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk_3kTiMn0gBW8k9Nlu_AJFrwif7TJ0b6STCWXtfHri8GQOJV2NRKCf-4eDd-tktofM4Y&usqp=CAU"/>
+      <figcaption>
+        <h3>LÊ QUÍ ĐÔN</h3>
+        <p>
+          Nhà văn, nhà khảo cứu thời kì trung đại Việt Nam, tự Duẫn Hậu 允厚, tên thuở nhỏ là Lê Danh Phương, hiệu Quế Đường 桂堂; là quan thời Lê trung hưng, quê ở làng Diên Hà, huyện Diên Ha ông Lê Phú Thứ (sau đổi là Lê Trọng Thứ), đỗ Tiến sĩ năm Bảo Thái thứ 2 (Giáp Thìn, 1721), và làm quan trải đến chức Hình bộ Thượng
+        </p>
+      </figcaption>
+    </figure>
+    <figure class="article">
+      <img
+        src="data:image/jpeg;base64,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"/>
+      <figcaption>
+        <h3>SƯƠNG NGUYỆT ANH</h3>
+        <p>
+          Tên thật là Nguyễn Thị Khuê, tự là Nguyệt Anh, nhà thơ, quê ở Ba Tri, Bến Tre, là con gái tác gia Nguyễn Đình Chiểu. Ngoài bút danh Sương Nguyệt Anh, bà còn ký nhiều bút hiệu khác như: Xuân Khuê, Nguyệt Nga, Nguyệt Anh…
+        </p>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<section class="reviews section-wrapper" id="reviews">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+
+      </div>
+    </div>
+    <div>
+      <div class="row">
+        <div class="item col-md-3" *ngFor="let i of bookDontDiscount">
+          <figure class="card">
+            <a [routerLink]="['/detail/',i.bookId]">
+              <img alt="Yeeak" class="reviewer"
+                   src="{{i.bookImage}}">
+              <h3 class=" justify-content-center mx-auto" style="text-align: center">
+                {{i.bookName}}
+              </h3>
+              <p class="addr">
+                {{i.author.authorName}}
+              </p>
+              <div class="review-gain">
+                <i class="ion-star"></i>
+                <i class="ion-star"></i>
+                <i class="ion-star"></i>
+                <i class="ion-star"></i>
+                <i class="ion-ios-star-half"></i>
+              </div>
+              <p class="details">
+                {{i.bookDescription}}
+              </p>
+              <p class="badge badge-success rounded-pill d-inline" style="background-color: #d2c3ff"> Giá :
+                <span> {{i.bookPrice|number}} VND </span>
+              </p>
+            </a>
+            <div class="contenu" style="margin-top: 10px">
+              <article>
+                <input type="button" value="Thêm Vào Giỏ" (click)="addItemToCart(i)"/>ㅤ
+                <input  routerLink="/cart" type="button" value="Mua Ngay"  (click)="addItemToCart(i)"/>
+              </article>
+            </div>
+          </figure>
+        </div>
+
+        <div class="mx-auto text-center col-lg-12">
+          <nav class="blog-pagination d-flex justify-content-center py-3">
+            <ul class="pagination">
+              <li class="page-item px-1">
+                <a (click)="previousPageDontDiscout()" class="page-link">Trước</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link">
+                  <span>{{currentPageNDis + 1}}</span>
+                  <span>/</span>
+                  <span>{{totalPagesNDis}}</span>
+                </a>
+              </li>
+              <li class="page-item px-1">
+                <a class="page-link" (click)="nextPageDontDiscout()">Sau
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /.container -->
+</section> <!-- /#reviews -->
+
+<section class="blog section-wrapper" id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 blog-left">
+        <img alt="blogger" class="blogger" style="width: 200px; height: 200px;"
+             src="https://i.pinimg.com/474x/6a/59/7f/6a597f8717d6f7f4ad7677cbcc5d563d.jpg">ㅤ
+
+        <div class="blogger-id">
+          <div class="blogger-title">Truyện ngắn: Scheherazade</div>
+          <div class="id">Nỗi sợ hãi là thứ để quan sát và nghi vấn</div>
+        </div>
+        <p class="light">
+          Cảnh đầu tiên của Sách là cảnh một chiếc xe hơi dần tiến vào bên trong ngôi nhà hoang vắng nằm trên sườn núi.
+        </p>
+        <p class="body">
+          Nếu trong văn học, thông qua tác phẩm The New York Trilogy, Paul Auster đã tạo ra một thể loại mà nhiều người gọi là giả trinh thám thì trong điện ảnh, Olivier Assayas cũng đã làm điều tương tự với Personal Shopper, chỉ khác là ở đây chúng ta có phim giả kinh dị chứ không phải truyện giả trinh thám.  </p>
+      </div> <!-- /.col-sm-8 -->
+      <div class="col-sm-4">
+        <p class="sub">
+          Diễn xuất của Kristen Stewart
+        </p>
+        <p class="place">
+          một sắc thái rất quan trọng trong cuộc sống
+        </p>
+        <p class="book-icon">
+          <i class="ion-calendar"></i> 06/02/15 <i class="ion-clock"></i> 8:30PM <i class="ion-android-compass"></i>
+        </p>
+        <p class="place">
+          Mumbai Writathon, 2015
+        </p>
+        <p class="book-icon">
+          <i class="ion-calendar"></i> 06/02/15 <i class="ion-clock"></i> 8:00PM <i class="ion-android-compass"></i>
+        </p>
+        <p class="light">
+          <b>New York Expo 2015,</b>
+        </p>
+      </div>
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#blog -->
+
+`
